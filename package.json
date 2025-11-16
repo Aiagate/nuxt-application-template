@@ -1,0 +1,41 @@
+{
+  "name": "nuxt-spa-template",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "typecheck": "npx nuxi typecheck",
+    "test": "vitest",
+    "test:watch": "vitest --watch",
+    "test:coverage": "vitest run --coverage",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.4.47",
+    "@nuxt/eslint": "1.10.0",
+    "@nuxt/hints": "1.0.0-alpha.1",
+    "@nuxt/test-utils": "3.20.1",
+    "eslint": "^9.39.1",
+    "nuxt": "^4.2.1",
+    "vue": "^3.5.24",
+    "vue-router": "^4.6.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "@typescript-eslint/eslint-plugin": "^8.46.4",
+    "@typescript-eslint/parser": "^8.46.4",
+    "@vitest/coverage-istanbul": "^3.2.4",
+    "@vue/test-utils": "^2.4.6",
+    "happy-dom": "^16.8.1",
+    "typescript": "^5.9.3",
+    "vite-plugin-vuetify": "^2.1.2",
+    "vitest": "^3.2.4",
+    "vue-tsc": "^3.1.4",
+    "vuetify": "^3.10.11"
+  }
+}
